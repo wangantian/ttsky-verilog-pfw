@@ -17,4 +17,4 @@ Feed in the clock signal, and it will start counting.
 
 ## External hardware
 
-No external hardware is used in your project (e.g. PMOD, LED display, etc), if any
+No external hardware is used in your project (e.g. PMOD, LED display, etc), if any needed, I will let you know 
