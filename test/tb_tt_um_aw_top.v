@@ -4,13 +4,13 @@
 /* This testbench just instantiates the module and makes some convenient wires
    that can be driven / tested by the cocotb test.py.
 */
-module tb_tt_aw_top ();
+module tb_tt_um_aw_top ();
 parameter Delay=2;
 
   // Dump the signals to a FST file. You can view it with gtkwave or surfer.
   initial begin
-    $dumpfile("tb_tt_aw_top.fst");
-    $dumpvars(0, tb_tt_aw_top);
+    $dumpfile("tb_tt_um_aw_top.fst");
+    $dumpvars(0, tb_tt_um_aw_top);
     #1;
   end
 
@@ -43,7 +43,7 @@ end
 
 
   // Replace tt_um_example with your module name:
-  tt_aw_top user_project (
+  tt_um_aw_top user_project (
 
       // Include power ports for the Gate Level test:
 `ifdef GL_TEST
